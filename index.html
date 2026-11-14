@@ -23,21 +23,21 @@ org/AR.js@3.4.7/aframe/build/aframe-ar.js"></script>
       <a-sphere
         position="0 0.55 0"
         radius="0.45"
-        material="color: #FFFFFF; shader: flat;">
+        color="#FFFFFF">
       </a-sphere>
 
       <!-- 左目 -->
       <a-sphere
         position="-0.14 0.68 0.40"
         radius="0.035"
-        material="color: #222222; shader: flat;">
+        color="#222222">
       </a-sphere>
 
       <!-- 右目 -->
       <a-sphere
         position="0.14 0.68 0.40"
         radius="0.035"
-        material="color: #222222; shader: flat;">
+        color="#222222">
       </a-sphere>
 
       <!-- くちばし -->
@@ -47,8 +47,23 @@ org/AR.js@3.4.7/aframe/build/aframe-ar.js"></script>
         radius-top="0"
         height="0.10"
         rotation="90 0 0"
-        material="color: #222222; shader: flat;">
+        color="#222222">
       </a-cone>
+      <!-- 左側のほっぺ -->
+      <a-sphere
+        position="-0.28 0.35 0.35"
+        radius="0.12"
+        scale="1 1 0.3"
+        color="#F8C9B5">
+      </a-sphere>
+      
+      <!-- 右側のほっぺ -->
+      <a-sphere
+        position="0.28 0.35 0.35"
+        radius="0.12"
+        scale="1 1 0.3"
+        color="#F8C9B5">
+      </a-sphere>
 
       <!-- 左側の羽 -->
       <a-sphere
